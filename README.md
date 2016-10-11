@@ -1,4 +1,4 @@
-# personal-boilerplate
+# Stylus Boilerplate
 Base components for work with stylus.
 
 *npm install stylus-boilerplate-autoprefix
