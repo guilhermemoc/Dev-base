@@ -30,8 +30,10 @@ footer, header, hgroup, menu, nav, section
 
 body 
 	line-height: 1
-
-
+	
+body, html 
+	font-size 10px
+	overflow-x hidden
 
 ol, ul 
 	list-style: none
@@ -56,3 +58,18 @@ table
 
 	&:after 
 		box-sizing: border-box
+		
+	@media (max-width tablet-max)
+		&:active, &:focus
+			outline 0 
+			
+		
+b, strong 
+	font-weight: bold
+	
+a 
+	text-decoration none 
+	
+	&:link, &:visited, &:active 
+		color inherit
+	
